@@ -44,15 +44,19 @@ section {
     margin-bottom: 1em;
     background-color: #0004;
     border-radius:1em;
-    padding:0.5em 2em 4em 2em;
+    padding:2em 2em 4em 2em;
     margin-left:20%;
     margin-right:20%;
 }
 
 .head {
-    position: relative;
-    float:left;
-    transform: scaleX(-1);
+    width: 128px;
+    height: auto;
+    border-radius: 1em;
+}
+
+.person-info {
+    margin-left: 10em;
 }
 
 .person .name {
@@ -62,4 +66,14 @@ section {
 .person .desc {
     display:block;
     font-size:18px;
+}
+
+.links {
+    margin-top: 4em;
+    margin-bottom: -2em;
+    margin-left: 10em;
+}
+
+.links a {
+    color: skyblue;
 }
