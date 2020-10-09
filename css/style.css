@@ -3,6 +3,10 @@ html {
     background-size: cover;
 }
 
+body {
+    height: 100%;
+}
+
 #logo {
     margin-left:auto;
     margin-right:auto;
@@ -45,8 +49,17 @@ section {
     background-color: #0004;
     border-radius:1em;
     padding:2em 2em 4em 2em;
-    margin-left:20%;
-    margin-right:20%;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+.project {
+    margin-bottom: 1em;
+    background-color: #0004;
+    border-radius:1em;
+    padding:2em 2em 4em 2em;
+    margin-left:1em;
+    margin-right:1em;
 }
 
 .head {
@@ -59,21 +72,49 @@ section {
     margin-left: 10em;
 }
 
-.person .name {
+.name {
     font-size:2em;
+    border-bottom: 1px solid;
 }
 
-.person .desc {
+.desc {
     display:block;
     font-size:18px;
+    margin-top: 0.5em;
 }
 
-.links {
+.person .links {
     margin-top: 4em;
     margin-bottom: -2em;
     margin-left: 10em;
 }
 
+.project .links {
+    margin-top: 4em;
+    margin-bottom: -2em;
+}
+
 .links a {
     color: skyblue;
+}
+
+.full {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    height: 100%;
+}
+
+.half {
+    min-height: 0;
+}
+
+.coming-soon {
+    margin-bottom: 1em;
+    background-color: #0004;
+    border-radius:0.5em;
+    padding:1em 2em 1em 2em;
+    margin-left:0.5em;
+    margin-right:0.5em;
+    text-align: center;
+    font-size: 2em;
 }
